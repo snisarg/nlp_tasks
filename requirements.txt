@@ -1,4 +1,6 @@
 hydra
+omegaconf
 pytorch-lightning
+torch
 -e git://github.com/snisarg/text.git#egg=text
 -e git://github.com/snisarg/hydra-text.git#egg=hydra-text
