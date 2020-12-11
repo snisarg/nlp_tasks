@@ -1,4 +1,4 @@
 defaults:
   - task: task
   - trainer: trainer
-  - task/model: roberta_model
+  - task/model: doc_model

@@ -4,7 +4,7 @@ from omegaconf import OmegaConf
 from nlp_tasks import Config
 
 
-@hydra.main(config_path="conf", config_name="config")
+@hydra.main(config_path="conf", config_name="nlp_tasks/config")
 def my_app(cfg: Config) -> None:
     print(OmegaConf.to_yaml(cfg))
 
