@@ -1,5 +1,4 @@
 defaults:
   - task: task
   - trainer: trainer
-  - task/model: transformer_model
-  - task/model/activation_fn: gelu
+  - task/model: roberta_model
